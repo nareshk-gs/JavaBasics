@@ -1,0 +1,100 @@
+## Core Java
+### What's enough for an SDET
+
+---
+
+## Chapter - 1
+
+#### Understanding Classes
+
++++
+
+## What it contains ?
+
+- Variables  <!-- .element: class="fragment" -->
+- Methods  <!-- .element: class="fragment" -->
+- Constructors  <!-- .element: class="fragment" -->
+- Instance Block  <!-- .element: class="fragment" -->
+- Static Block  <!-- .element: class="fragment" -->
+
++++
+
+## We need to know
+
+```
+  DataTypes
+  FlowControl
+  ExceptionHandling
+  Objects
+  Methods
+  SourceFiles
+  Modifiers
+```
+<span class="code-presenting-annotation fragment current-only" data-code-focus="1">@color[red](byte, short, int, long, float, double, char, boolean)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="2">@color[red](if, else, switch, case, default, break, for, while, do, continue)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="3">@color[red](try, catch, finally, throws, throw)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="4">@color[red](new, this, super, instanceof)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="5">@color[red](void, return)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="6">@color[red](class, extends, interface, implements, package, import)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="7">@color[red](public, private, protected, final, static, abstract)</span>                                              
+
+---
+
+## Chapter - 2
+
+### Handling data in variables
+
++++
+
+### What are datatypes ???
+
+```
+    byte
+    short
+    int
+    long
+    float
+    double
+    char
+    boolean
+```
+
+<span class="code-presenting-annotation fragment current-only" data-code-focus="1">@color[red](Size: 1 byte - Default: 0)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="2">@color[red](Size: 2 bytes - Default: 0)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="3">@color[red](Size: 4 bytes - Default: 0)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="4">@color[red](Size: 8 bytes - Default: 0)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="5">@color[red](Size: 4 bytes - Default: 0.0)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="6">@color[red](Size: 8 bytes - Default: 0.0)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="7">@color[red](Size: 2 bytes - Default: < > //space)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="8">@color[red](Size: NA - Default: false)</span>
+
++++
+
+### What are variables ???
+
++++
+
+##### LOCAL
+
+- Declared inside a method/constructor/block 
+- Scope limits within the declared method/constructor/block 
+- Memory allocated when execution of method/constructor/block begins 
+- Memory released when execution of method/constructor/block completes 
+
++++
+
+##### Instance
+
+- Declared inside the class, but outside of any method/constructor/block
+- Scope limits within the class, across all method/constructor/block(s), with reference to class object
+- Memory allocated when class object is created
+- Memory released when class object is destroyed
+
++++
+
+##### Static
+
+- Declared inside the class, but outside of any method with Static prefix
+- Scope limits with the class
+- Memory allocated when .class file loaded into JVM
+- Memory released when JVM completes execution
