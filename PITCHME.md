@@ -1,16 +1,16 @@
-## Core Java
-### What's enough for an SDET
+# Core Java
+## What's enough for an SDET
 
 ---
 
-## Chapter - 1
+# Chapter - 1
 
-#### Understanding Classes
+## Understanding Classes
 
 +++
 
 ## What it contains ?
-
+<font size = 6>
 - Variables  <!-- .element: class="fragment" -->
 - Methods  <!-- .element: class="fragment" -->
 - Constructors  <!-- .element: class="fragment" -->
@@ -20,7 +20,7 @@
 +++
 
 ## We need to know
-
+<font size = 6>
 ```
   DataTypes
   FlowControl
@@ -40,14 +40,19 @@
 
 ---
 
-## Chapter - 2
+# Chapter - 2
 
-### Handling data in variables
+## Handling data in variables
 
 +++
 
-### What are datatypes ???
+## What are datatypes ???
 
++++
+
+## Datatypes
+
+<font size = 6>
 ```
     byte
     short
@@ -70,11 +75,11 @@
 
 +++
 
-### What are variables ???
+## What are variables ???
 
 +++
 
-##### LOCAL
+## LOCAL
 
 - Declared inside a method/constructor/block 
 - Scope limits within the declared method/constructor/block 
@@ -83,7 +88,7 @@
 
 +++
 
-##### Instance
+## Instance
 
 - Declared inside the class, but outside of any method/constructor/block
 - Scope limits within the class, across all method/constructor/block(s), with reference to class object
@@ -92,9 +97,69 @@
 
 +++
 
-##### Static
+## Static
 
 - Declared inside the class, but outside of any method with Static prefix
 - Scope limits with the class
 - Memory allocated when .class file loaded into JVM
 - Memory released when JVM completes execution
+
++++
+
+## Classification
+<font size = 6>
+```
+Primitive
+Class
+Array
+ENUM
+```
+
+<span class="code-presenting-annotation fragment current-only" data-code-focus="1">@color[red](int i = 10)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="1">@color[red](float f = 10.0)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="2">@color[red](Test t = new Test())</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="2">@color[red](Employee e = new Employee())</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="3">@color[red](int[] numbers)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="3">@color[red](String[] strings)</span>
+
+---
+
+# Chapter - 3
+
+## Keep the flow in control
+
++++
+
+## How, I ask, How ???
+
++++
+
+## Logics
+
+- IF
+- FOR
+- SWITCH
+- WHILE
+
++++
+
+## IF
+
+- if
+- if else
+- if else if
+
++++
+
+## FOR
+
++++
+
+## Switch
+
++++
+
+## While
+
+- while
+- do while
