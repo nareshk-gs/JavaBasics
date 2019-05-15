@@ -1,6 +1,7 @@
 # Core Java
 ## What's enough for an SDET
 
+
 ---
 
 # Chapter - 1
@@ -145,7 +146,7 @@ ENUM
 <span class="code-presenting-annotation fragment current-only" data-code-focus="3">@color[red](int[] numbers)</span>
 <span class="code-presenting-annotation fragment current-only" data-code-focus="3">@color[red](String[] strings)</span>
 
-___
+---
 
 # Chapter - 3
 
@@ -180,7 +181,7 @@ ___
 - Access using class name
 - Loaded at the time of class loading
 
-___
+---
 
 # Chapter - 4
 
@@ -344,3 +345,9 @@ Constant
 
 +++
 
+## WHat is @color[orange](OOP)
+
+- Inheritance <!-- .element: class="fragment" -->
+- Polymorphism <!-- .element: class="fragment" -->
+- Abstraction <!-- .element: class="fragment" -->
+- Encapsulation <!-- .element: class="fragment" -->
