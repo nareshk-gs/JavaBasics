@@ -50,6 +50,7 @@
 
 +++
 
+
 ## Datatypes
 
 <font size = 6>
@@ -106,8 +107,32 @@
 
 +++
 
+## Instance @color[red](VS) Static
+
+- Access instance variables from instance area
+- Access instance variables from static area
+- Access static variables from instance area
+- Access static variables from static area
+
++++
+
+## Variables @color[red](VS) Default values
+
+- Assignment @color[red](VS) Default for static
+- Assignment @color[red](VS) Default for instance
+- Assignment @color[red](VS) Default for local
+
++++
+
+## Class @color[red](VS) Objects
+
+![Image](assets/C&O.png)
+
++++
+
 ## Classification
-<font size = 6>
+
+
 ```
 Primitive
 Class
@@ -125,6 +150,106 @@ ENUM
 ---
 
 # Chapter - 3
+
+## Segregating business logics
+
++++
+
+## Methods - what && why ??
+
++++
+
+## Syntax
+
+- Modifier Return-Type Method-Name(params list) throws <exception> { }
+- @color[blue](Modifier) - Access permission (public, private) 
+- @color[blue](Return-Type) - Method response (void, int, boolean, <classname>) 
+- @color[blue](Method signature) - Combination of method name and param list  
+- @color[blue](Classification) - Instance and Static methods 
+
++++
+
+## Instance Methods
+
+- Access using Objects 
+- Loaded at the object creation time
+
++++
+
+## Static Methods
+
+- Access using class name
+- Loaded at the time of class loading
+
+---
+
+# Chapter - 4
+
+## Constructors
+
++++
+
+## What is constructor ??@color[red](?)??
+
++++
+
+## Types of constructors
+
+- No Param constructors 
+- Param constructors
+
++++
+
+## Param @color[red](VS) No-Param constructors
+
+- Default Constructor 
+- Custom Constructors
+
+---
+
+# Chapter - 5
+
+## Instance Block
+
++++
+
+## What is Instance Block @color[red](?)
+
++++
+
+## Why, why & why @color[red](?)
+
+- Holds business logic to be executed at the time of object creation 
+- Use to initialize instance variables during object creation
+
++++
+
+## Instance Block @color[red](VS) Constructors
+
+- Instance blocks are executed before constructors 
+- Instance blocks are common for all objects 
+- Constructors are specific to object
+
+---
+
+# Chapter - 6
+
+## Static Block
+
++++
+
+## What is Static Block @color[red](?)
+
++++
+
+## Why, why & why @color[red](?)
+
+- Holds business logic to be executed at the time of class loading in JVM 
+- Use to initialize static variables
+
+---
+
+# Chapter - 7
 
 ## Keep the flow in control
 
@@ -163,3 +288,66 @@ ENUM
 
 - while
 - do while
+
+---
+
+# Chapter - 8
+
+## Coding Conventions
+
++++
+
+## Why, why & why @color[red](?)
+
+- Every name in JAVA is called identifier
+- Multiple entities can have same identifier
+<font size = 20>
+- @color[blue](JAVA is @color[red](case) sensitive) <!-- .element: class="fragment" -->
+
++++
+
+## Conventions
+
+<font size = 14>
+```
+Class
+Interface
+Method
+Variable
+Package
+Constant
+```
+
+<font size = 10>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="1">@color[red](Starts with **upper case** letter, followed by *camel casing*)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="2">@color[red](Starts with **upper case** letter, followed by *camel casing*)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="3">@color[red](Starts with **lower case** letter, followed by *came casing*)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="4">@color[red](Starts with **lower case** letters, followed by *camel casing*)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="5">@color[red](All **lower case** letters)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="6">@color[red](All **upper case** letters)</span>
+
++++
+
+## Rules for @color[blue](Identifiers)
+
+- Contains a-z, A-Z, 0-9, _ and $
+- Should not start with number
+- Keywords are not allowed as identifiers
+- Predefined class and interface names are allowed as identifiers, but not recommended to use
+- There is no limit on the length of the identifier. Recommended to restrict to 16 char
+- Identifiers are case sensitive. Same identifier in different cases are treated as two identifiers
+
+---
+
+# Chapter - 9
+
+## Lets understand @color[red](OOP)
+
++++
+
+## What is @color[orange](OOP)
+
+- Inheritance <!-- .element: class="fragment" -->
+- Polymorphism <!-- .element: class="fragment" -->
+- Abstraction <!-- .element: class="fragment" -->
+- Encapsulation <!-- .element: class="fragment" -->
