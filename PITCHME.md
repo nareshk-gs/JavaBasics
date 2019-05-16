@@ -1,7 +1,6 @@
 # Core Java
 ## What's enough for an SDET
 
-
 ---
 
 # Chapter - 1
@@ -11,7 +10,7 @@
 +++
 
 ## What it contains ?
-
+<font size = 6>
 - Variables  <!-- .element: class="fragment" -->
 - Methods  <!-- .element: class="fragment" -->
 - Constructors  <!-- .element: class="fragment" -->
@@ -21,7 +20,7 @@
 +++
 
 ## We need to know
-
+<font size = 6>
 ```
   DataTypes
   FlowControl
@@ -51,8 +50,10 @@
 
 +++
 
+
 ## Datatypes
 
+<font size = 6>
 ```
     byte
     short
@@ -130,6 +131,7 @@
 +++
 
 ## Classification
+
 
 ```
 Primitive

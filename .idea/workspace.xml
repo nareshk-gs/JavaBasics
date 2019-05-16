@@ -18,6 +18,7 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="-596">
                 <caret line="304" column="3" lean-forward="true" selection-start-line="304" selection-start-column="3" selection-end-line="304" selection-end-column="3" />
+
               </first_editor>
               <second_editor />
             </state>
@@ -54,6 +55,7 @@
       <find>midpoint</find>
       <find>VS</find>
       <find>vs</find>
+
     </findStrings>
     <replaceStrings>
       <replace>north</replace>
@@ -270,6 +272,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+
         </state>
       </provider>
     </entry>
@@ -287,6 +290,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+
         </state>
       </provider>
     </entry>
@@ -295,6 +299,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-596">
             <caret line="304" column="3" lean-forward="true" selection-start-line="304" selection-start-column="3" selection-end-line="304" selection-end-column="3" />
+
           </first_editor>
           <second_editor />
         </state>
