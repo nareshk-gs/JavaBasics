@@ -343,7 +343,7 @@ Constant
 
 +++
 
-## WHat is @color[orange](OOP)
+## What is @color[orange](OOP)
 
 - Inheritance <!-- .element: class="fragment" -->
 - Polymorphism <!-- .element: class="fragment" -->
