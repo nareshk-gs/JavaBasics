@@ -11,7 +11,7 @@
 +++
 
 ## What it contains ?
-<font size = 6>
+
 - Variables  <!-- .element: class="fragment" -->
 - Methods  <!-- .element: class="fragment" -->
 - Constructors  <!-- .element: class="fragment" -->
@@ -21,7 +21,7 @@
 +++
 
 ## We need to know
-<font size = 6>
+
 ```
   DataTypes
   FlowControl
@@ -53,7 +53,6 @@
 
 ## Datatypes
 
-<font size = 6>
 ```
     byte
     short
@@ -131,7 +130,7 @@
 +++
 
 ## Classification
-<font size = 6>
+
 ```
 Primitive
 Class
@@ -161,11 +160,10 @@ ENUM
 ## Syntax
 
 - Modifier Return-Type Method-Name(params list) throws <exception> { }
-
-- @color[blue](Modifier) - Access permission (public, private) <!-- .element: class="fragment" -->
-- @color[blue](Return-Type) - Method response (void, int, boolean, <classname>) <!-- .element: class="fragment" -->
-- @color[blue](Method signature) - Combination of method name and param list  <!-- .element: class="fragment" -->
-- @color[blue](Classification) - Instance and Static methods <!-- .element: class="fragment" -->
+- @color[blue](Modifier) - Access permission (public, private) 
+- @color[blue](Return-Type) - Method response (void, int, boolean, <classname>) 
+- @color[blue](Method signature) - Combination of method name and param list  
+- @color[blue](Classification) - Instance and Static methods 
 
 +++
 
@@ -195,14 +193,14 @@ ENUM
 
 ## Types of constructors
 
-- No Param constructors <!-- .element: class="fragment" -->
+- No Param constructors 
 - Param constructors
 
 +++
 
 ## Param @color[red](VS) No-Param constructors
 
-- Default Constructor <!-- .element: class="fragment" -->
+- Default Constructor 
 - Custom Constructors
 
 ---
@@ -219,15 +217,15 @@ ENUM
 
 ## Why, why & why @color[red](?)
 
-- Holds business logic to be executed at the time of object creation <!-- .element: class="fragment" -->
+- Holds business logic to be executed at the time of object creation 
 - Use to initialize instance variables during object creation
 
 +++
 
 ## Instance Block @color[red](VS) Constructors
 
-- Instance blocks are executed before constructors <!-- .element: class="fragment" -->
-- Instance blocks are common for all objects <!-- .element: class="fragment" -->
+- Instance blocks are executed before constructors 
+- Instance blocks are common for all objects 
 - Constructors are specific to object
 
 ---
@@ -244,7 +242,7 @@ ENUM
 
 ## Why, why & why @color[red](?)
 
-- Holds business logic to be executed at the time of class loading in JVM <!-- .element: class="fragment" -->
+- Holds business logic to be executed at the time of class loading in JVM 
 - Use to initialize static variables
 
 ---
@@ -301,8 +299,8 @@ ENUM
 
 - Every name in JAVA is called identifier
 - Multiple entities can have same identifier
-<font size = 16>
-- @color[red](JAVA is case sensitive) <!-- .element: class="fragment" -->
+<font size = 20>
+- @color[blue](JAVA is @color[red](case) sensitive) <!-- .element: class="fragment" -->
 
 +++
 
