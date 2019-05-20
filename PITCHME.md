@@ -5,12 +5,12 @@
 
 # Chapter - 1
 
-## Understanding Classes
+## Understanding @color[blue](**Classes**)
 
 +++
 
 ## What it contains ?
-<font size = 6>
+<font size = 16>
 - Variables  <!-- .element: class="fragment" -->
 - Methods  <!-- .element: class="fragment" -->
 - Constructors  <!-- .element: class="fragment" -->
@@ -20,7 +20,8 @@
 +++
 
 ## We need to know
-<font size = 6>
+
+<font size = 16>
 ```
   DataTypes
   FlowControl
@@ -30,17 +31,15 @@
   SourceFiles
   Modifiers
 ```
-<span class="code-presenting-annotation fragment current-only" data-code-focus="1">@color[red](byte, short, int, long, float, double, char, boolean)</span>
-<span class="code-presenting-annotation fragment current-only" data-code-focus="2">@color[red](if, else, switch, case, default, break, for, while, do, continue)</span>
-<span class="code-presenting-annotation fragment current-only" data-code-focus="3">@color[red](try, catch, finally, throws, throw)</span>
-<span class="code-presenting-annotation fragment current-only" data-code-focus="4">@color[red](new, this, super, instanceof)</span>
-<span class="code-presenting-annotation fragment current-only" data-code-focus="5">@color[red](void, return)</span>
-<span class="code-presenting-annotation fragment current-only" data-code-focus="6">@color[red](class, extends, interface, implements, package, import)</span>
-<span class="code-presenting-annotation fragment current-only" data-code-focus="7">@color[red](public, private, protected, final, static, abstract)</span>                                              
+<span class="code-presenting-annotation fragment current-only" data-code-focus="1">@color[blue](byte, short, int, long, float, double, char, boolean)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="2">@color[blue](if, else, switch, case, default, break, for, while, do, continue)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="3">@color[blue](try, catch, finally, throws, throw)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="4">@color[blue](new, this, super, instanceof)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="5">@color[blue](void, return)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="6">@color[blue](class, extends, interface, implements, package, import)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="7">@color[blue](public, private, protected, final, static, abstract)</span>                                              
 
----
-
-# Chapter - 2
++++
 
 ## Handling data in variables
 
@@ -50,10 +49,9 @@
 
 +++
 
-
 ## Datatypes
 
-<font size = 6>
+<font size = 16>
 ```
     byte
     short
@@ -147,9 +145,7 @@ ENUM
 <span class="code-presenting-annotation fragment current-only" data-code-focus="3">@color[red](int[] numbers)</span>
 <span class="code-presenting-annotation fragment current-only" data-code-focus="3">@color[red](String[] strings)</span>
 
----
-
-# Chapter - 3
++++
 
 ## Segregating business logics
 
@@ -181,9 +177,7 @@ ENUM
 - Access using class name
 - Loaded at the time of class loading
 
----
-
-# Chapter - 4
++++
 
 ## Constructors
 
@@ -205,9 +199,7 @@ ENUM
 - Default Constructor 
 - Custom Constructors
 
----
-
-# Chapter - 5
++++
 
 ## Instance Block
 
@@ -230,9 +222,7 @@ ENUM
 - Instance blocks are common for all objects 
 - Constructors are specific to object
 
----
-
-# Chapter - 6
++++
 
 ## Static Block
 
@@ -249,7 +239,7 @@ ENUM
 
 ---
 
-# Chapter - 7
+# Chapter - 2
 
 ## Keep the flow in control
 
@@ -291,7 +281,7 @@ ENUM
 
 ---
 
-# Chapter - 8
+# Chapter - 3
 
 ## Coding Conventions
 
@@ -319,12 +309,12 @@ Constant
 ```
 
 <font size = 10>
-<span class="code-presenting-annotation fragment current-only" data-code-focus="1">@color[red](Starts with **upper case** letter, followed by *camel casing*)</span>
-<span class="code-presenting-annotation fragment current-only" data-code-focus="2">@color[red](Starts with **upper case** letter, followed by *camel casing*)</span>
-<span class="code-presenting-annotation fragment current-only" data-code-focus="3">@color[red](Starts with **lower case** letter, followed by *came casing*)</span>
-<span class="code-presenting-annotation fragment current-only" data-code-focus="4">@color[red](Starts with **lower case** letters, followed by *camel casing*)</span>
-<span class="code-presenting-annotation fragment current-only" data-code-focus="5">@color[red](All **lower case** letters)</span>
-<span class="code-presenting-annotation fragment current-only" data-code-focus="6">@color[red](All **upper case** letters)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="1">@color[blue](Starts with **upper case** letter, followed by *camel casing*)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="2">@color[blue](Starts with **upper case** letter, followed by *camel casing*)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="3">@color[blue](Starts with **lower case** letter, followed by *came casing*)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="4">@color[blue](Starts with **lower case** letters, followed by *camel casing*)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="5">@color[blue](All **lower case** letters)</span>
+<span class="code-presenting-annotation fragment current-only" data-code-focus="6">@color[blue](All **upper case** letters)</span>
 
 +++
 
@@ -339,7 +329,7 @@ Constant
 
 ---
 
-# Chapter - 9
+# Chapter - 4
 
 ## Lets understand @color[red](OOP)
 
@@ -351,3 +341,73 @@ Constant
 - Polymorphism <!-- .element: class="fragment" -->
 - Abstraction <!-- .element: class="fragment" -->
 - Encapsulation <!-- .element: class="fragment" -->
+
++++
+
+## Inheritance
+
++++
+
+## why @color[red](?)
+
+- Reduce length of code
+- Reduce redundancy
+
+## How @color[red](?)
+
+- <parent/super/base> extends <child/sub/derived>
+- Object as root class
+- Inheriting final class
+
++++
+
+## Polymorphism
+
++++
+
+## why @color[red](?)
+
+- Ability to appear in more than one form
+
+## How @color[red](?)
+
+- Compile Time Polymorphism
+- Run Time Polymorphism
+
++++
+
+## Compile Time Polymorphism
+
+- AKA static/early binding
+- Achieved by @color[blue](overloading)
+
++++
+
+## Overloading
+
+- Method Overloading
+- Constructor Overloading
+
++++
+
+## Run Time Polymorphism
+
+- AKA dynamic/delayed binding
+- Achieved by @color[blue](overriding)
+
++++
+
+## Overriding - Return types
+
+- Returning primitives
+- Returning class objects
+- Covariant return types
+
++++
+
+## Overriding - details
+
+- final methods
+- static methods
+- private methods
+- permissions on overriding and overridden methods
