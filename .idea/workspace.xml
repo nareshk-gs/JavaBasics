@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5c17114-dda9-42d1-a6a7-b00950e2a91e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
-    </list>
+    <list default="true" id="f5c17114-dda9-42d1-a6a7-b00950e2a91e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +14,8 @@
         <entry file="file://$PROJECT_DIR$/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="428">
-                <caret line="300" column="1" lean-forward="true" selection-start-line="300" selection-start-column="1" selection-end-line="300" selection-end-column="1" />
+              <first_editor relative-caret-position="54">
+                <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -193,11 +191,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23620000" />
+    <option name="totallyTimeSpent" value="24037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24749643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -280,8 +277,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="428">
-            <caret line="300" column="1" lean-forward="true" selection-start-line="300" selection-start-column="1" selection-end-line="300" selection-end-column="1" />
+          <first_editor relative-caret-position="54">
+            <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
