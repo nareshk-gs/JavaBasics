@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c17114-dda9-42d1-a6a7-b00950e2a91e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PITCHME.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="290">
-                <caret line="412" column="50" selection-start-line="412" selection-start-column="50" selection-end-line="412" selection-end-column="50" />
+              <first_editor relative-caret-position="260">
+                <caret line="478" lean-forward="true" selection-start-line="478" selection-end-line="478" />
               </first_editor>
               <second_editor />
             </state>
@@ -75,35 +73,16 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="width" value="1024" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBasics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -119,10 +98,10 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
@@ -191,11 +170,12 @@
       <workItem from="1557165288982" duration="3597000" />
       <workItem from="1557259693184" duration="562000" />
       <workItem from="1557935660692" duration="6354000" />
+      <workItem from="1558378436805" duration="1867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20596000" />
+    <option name="totallyTimeSpent" value="23400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -279,13 +259,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/DeathStroke.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/PITCHME.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+    <entry file="file://$PROJECT_DIR$/PITCHME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="260">
+            <caret line="478" lean-forward="true" selection-start-line="478" selection-end-line="478" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -296,15 +276,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PITCHME.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="290">
-            <caret line="412" column="50" selection-start-line="412" selection-start-column="50" selection-end-line="412" selection-end-column="50" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/assets/css/PITCHME.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/DeathStroke.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">

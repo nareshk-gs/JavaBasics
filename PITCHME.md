@@ -411,3 +411,76 @@ Constant
 - static methods
 - private methods
 - permissions on overriding and overridden methods
+
++++
+
+## Abstraction
+
++++
+
+## Why @color[red](?)
+
+- Highlight services
+- Hide implementation
+
+## How @color[red](?)
+
+- Abstract Classes
+- Interfaces
+
++++
+
+## Abstract Classes contain
+
+- One or more @color[blue](abstract) method(s)
+- Main method
+- Constructor
+- @color[red](No Object can be created) <!-- .element: class="fragment" -->
+
++++
+
+## Interface
+
+- Extension of Abstract Class
+- Definition, NO implementation
+- Can extend multiple interfaces
+- Class can implement multiple interfaces
+- All methods are ```public abstract```
+- All variables are ```public static final```
+
+## It also leads to
+
+- Nested Interface
+- Marker Interface
+- Adapter Classes
+
++++
+
+## Encapsulation
+
++++
+
+## Why @color[red](?)
+
+- Binding Code and Data
+
+## How @color[red](?)
+
+- Class binds five elements
+- Package binds group of classes
+
++++
+
+## Bean Class
+
+- ```private``` variables
+- ```public``` getters and setters
+
+---
+
+# Chapter - 5
+
+## Exception means @color[red](fun)
+
++++
+
