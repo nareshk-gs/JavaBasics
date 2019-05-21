@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c17114-dda9-42d1-a6a7-b00950e2a91e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="260">
-                <caret line="478" lean-forward="true" selection-start-line="478" selection-end-line="478" />
+              <first_editor relative-caret-position="428">
+                <caret line="300" column="1" lean-forward="true" selection-start-line="300" selection-start-column="1" selection-end-line="300" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -82,7 +81,26 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBasics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBasics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -175,7 +193,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23400000" />
+    <option name="totallyTimeSpent" value="23620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -262,8 +280,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="260">
-            <caret line="478" lean-forward="true" selection-start-line="478" selection-end-line="478" />
+          <first_editor relative-caret-position="428">
+            <caret line="300" column="1" lean-forward="true" selection-start-line="300" selection-start-column="1" selection-end-line="300" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>

@@ -1,6 +1,7 @@
 # Core Java
 ## What's enough for an SDET
 
+Note: Lets KILL this
 ---
 
 # Chapter - 1
@@ -335,7 +336,7 @@ Constant
 
 +++
 
-## What is @color[orange](OOP)
+## What is @color[red](OOP)
 
 - Inheritance <!-- .element: class="fragment" -->
 - Polymorphism <!-- .element: class="fragment" -->
@@ -355,7 +356,7 @@ Constant
 
 ## How @color[red](?)
 
-- <parent/super/base> extends <child/sub/derived>
+- parent/super/base @color[orange](```extends```) child/sub/derived
 - Object as root class
 - Inheriting final class
 
@@ -445,8 +446,10 @@ Constant
 - Definition, NO implementation
 - Can extend multiple interfaces
 - Class can implement multiple interfaces
-- All methods are ```public abstract```
-- All variables are ```public static final```
+- All methods are @color[orange](```public abstract```)
+- All variables are @color[orange](```public static final```)
+
++++
 
 ## It also leads to
 
@@ -473,8 +476,8 @@ Constant
 
 ## Bean Class
 
-- ```private``` variables
-- ```public``` getters and setters
+- @color[orange](```private```) variables
+- @color[orange](```public```) getters and setters
 
 ---
 
